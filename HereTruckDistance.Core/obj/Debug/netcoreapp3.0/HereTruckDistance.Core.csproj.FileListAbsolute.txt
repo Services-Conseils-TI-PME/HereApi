@@ -1,0 +1,8 @@
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\obj\Debug\netcoreapp3.0\HereTruckDistance.Core.csprojAssemblyReference.cache
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\obj\Debug\netcoreapp3.0\HereTruckDistance.Core.AssemblyInfoInputs.cache
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\obj\Debug\netcoreapp3.0\HereTruckDistance.Core.AssemblyInfo.cs
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\bin\Debug\netcoreapp3.0\HereTruckDistance.Core.deps.json
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\bin\Debug\netcoreapp3.0\HereTruckDistance.Core.dll
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\bin\Debug\netcoreapp3.0\HereTruckDistance.Core.pdb
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\obj\Debug\netcoreapp3.0\HereTruckDistance.Core.dll
+E:\Travail\GitHub\Services-Conseils-TI-PME\HereTruckDistance\HereTruckDistance.Core\obj\Debug\netcoreapp3.0\HereTruckDistance.Core.pdb
