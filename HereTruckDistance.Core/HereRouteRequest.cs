@@ -4,9 +4,8 @@ namespace HereTruckDistance.Core
 {
     public class HereRouteRequest : HereRequest
     {
-        public HereRouteRequest(IConfiguration config) :base(config)
+        public HereRouteRequest(IConfiguration config) :base(config, "RouteSrv")
         {
-            Service = _config.Services["HereSrvRoute"].ToString();
         }
     }
 

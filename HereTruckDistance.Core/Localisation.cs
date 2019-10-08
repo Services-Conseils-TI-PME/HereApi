@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
+﻿using System.Globalization;
 
 namespace HereTruckDistance.Core
 {
@@ -10,12 +7,20 @@ namespace HereTruckDistance.Core
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
 
-        public string Point { get { return string.Format("{0},{1}", Latitude.ToString(CultureInfo.InvariantCulture), Longitude.ToString(CultureInfo.InvariantCulture)); }}
-
         public Localisation(decimal latitude, decimal longitude)
         {
             Latitude = latitude;
             Longitude = longitude;
+        }
+    }
+
+    public static class LocalisationExtension
+    {
+        public static string GetPointString(this Localisation localisation)
+        {
+            return string.Format("{0},{1}",
+                localisation.Latitude.ToString(CultureInfo.InvariantCulture),
+                localisation.Longitude.ToString(CultureInfo.InvariantCulture));
         }
     }
 }

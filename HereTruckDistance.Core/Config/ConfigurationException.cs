@@ -12,7 +12,7 @@ namespace HereTruckDistance.Core
         {
         }
 
-        public ConfigurationException(string configValue) : 
+        public ConfigurationException(string configValue) :
             base(string.Format(MessageFormat, configValue))
         {
         }

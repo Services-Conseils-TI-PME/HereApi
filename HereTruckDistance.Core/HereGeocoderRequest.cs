@@ -5,7 +5,7 @@ using System.Globalization;
 
 namespace HereTruckDistance.Core
 {
-    public class HereRouteTruckRequest : HereRequest, IHereRouteRequest
+    public class HereGeocoderRequest : HereRequest
     {
         public Localisation PointDepart { get; set; }
         public Localisation PointDestination { get; set; }
@@ -15,7 +15,7 @@ namespace HereTruckDistance.Core
         public decimal Height { get; set; }
         public string ShippedHazardousGoods { get; set; }
 
-        public HereRouteTruckRequest(IConfiguration config) : base(config, "RouteSvc")
+        public HereGeocoderRequest(IConfiguration config) : base(config, "GeocoderSvc")
         {
             PointDepart = new Localisation(52.5m, 13.4m);
             PointDestination = new Localisation(52.5m, 13.45m);
@@ -30,16 +30,11 @@ namespace HereTruckDistance.Core
             //TODO: À changer pour un string builder
             UriBuilder uri = new UriBuilder(ServiceUri);
             uri.Query = string.Format("app_id={0}&app_code={1}" +
-                "&waypoint0=geo!{2}" +
-                "&waypoint1=geo!{3}" +
-                "&mode=fastest;truck;traffic:disabled" +
-                "&limitedWeight={4}" +
-                "&height={5}" +
-                "&width=2.5" +
-                "&length=7" +
-                "&shippedHazardousGoods=harmfulToWater",
-                "&routeattributes=sm",
-                "&maneuverattributes=di",
+                "&housenumber={2}" +
+                "&street={3}" +
+                "&city={4}" +
+                "&country={5}" +
+                "&gen=9" +
                 "&language=fr-fr",
                 AppId,
                 AppCode,
