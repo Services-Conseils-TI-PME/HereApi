@@ -6,9 +6,7 @@
         {
         }
 
-        public override string ToString()
-        {
-            return base.ToString().ToLower();
-        }
+        public override string ValeurStr => string.Format("{0}", Valeur.ToString().ToLower());
+
     }
 }

@@ -22,9 +22,9 @@ namespace Here
                 throw new ArgumentException(string.Format("Le service Here à utiliser doit être spécifié {0} correctement dans la configuration", service), nameof(service));
             }
 
-            AppId = config.GetSection("HereConfig:HereAppId").Value;
-            AppCode = config.GetSection("HereConfig:HereAppCode").Value;
-            Uri = config.GetSection(string.Format("HereConfig:HereServices:{0}", service)).Value;
+            AppId = config.GetSection("HereConfig:AppId").Value;
+            AppCode = config.GetSection("HereConfig:AppCode").Value;
+            Uri = config.GetSection(string.Format("HereConfig:UriServices:{0}", service)).Value;
             Valider();
         }
 

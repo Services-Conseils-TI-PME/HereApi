@@ -21,12 +21,12 @@ namespace Here.Params
 
         public T[] Valeurs { get; set; }
 
-        public string ValeurStr
+        public string ValeurStr => string.Join(";", Valeurs.Select(v => v.ToString()).ToArray());
+
+        public override string ToString()
         {
-            get
-            {
-                return string.Join(" ", Valeurs.Select(v => v.ToString()).ToArray());
-            }
+            return string.Format("{0}={1}", Nom, ValeurStr);
         }
+
     }
 }

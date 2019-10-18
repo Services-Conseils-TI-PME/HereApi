@@ -21,7 +21,7 @@ namespace Here
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public static void ConfigureServices(IServiceCollection services, IWebHostEnvironment env)
+        public static void ConfigureServices(IServiceCollection services) //, IWebHostEnvironment env
         {
             services.AddControllers(options =>
                 {
@@ -52,23 +52,23 @@ namespace Here
             services.AddScoped<IHereRouteTruckService, HereRouteTruckService>();
             services.AddScoped<IHereGeocodeService, HereGeocodeService>();
 
-            if (!env.IsDevelopment())
-            {
-                services.AddHttpsRedirection(options =>
-                {
-                    options.RedirectStatusCode = StatusCodes.Status308PermanentRedirect;
-                    options.HttpsPort = 443;
-                });
+            //if (!env.IsDevelopment())
+            //{
+            //    services.AddHttpsRedirection(options =>
+            //    {
+            //        options.RedirectStatusCode = StatusCodes.Status308PermanentRedirect;
+            //        options.HttpsPort = 443;
+            //    });
 
-                services.AddHsts(options =>
-                {
-                    options.Preload = true;
-                    options.IncludeSubDomains = true;
-                    options.MaxAge = TimeSpan.FromDays(60);
-                    options.ExcludedHosts.Add("example.com");
-                    options.ExcludedHosts.Add("www.example.com");
-                });
-            }
+            //    services.AddHsts(options =>
+            //    {
+            //        options.Preload = true;
+            //        options.IncludeSubDomains = true;
+            //        options.MaxAge = TimeSpan.FromDays(60);
+            //        options.ExcludedHosts.Add("example.com");
+            //        options.ExcludedHosts.Add("www.example.com");
+            //    });
+            //}
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

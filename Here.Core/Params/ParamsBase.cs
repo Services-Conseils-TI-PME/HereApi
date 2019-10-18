@@ -18,7 +18,7 @@ namespace Here.Params
 
         public T Valeur { get; set; }
         public string Nom { get; private set; }
-        public string ValeurStr { get { return string.Format("{0}", Valeur); } }
+        public virtual string ValeurStr => string.Format("{0}", Valeur);
 
         public override string ToString()
         {

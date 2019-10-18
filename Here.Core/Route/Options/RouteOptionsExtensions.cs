@@ -1,6 +1,7 @@
 ﻿using Here.Params;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Here.Options.Route
 {
@@ -44,7 +45,7 @@ namespace Here.Options.Route
             if (valeurs == null || valeurs.Length <= 0) throw new ArgumentNullException(nameof(valeurs));
 
             string nom = "mode";
-            var param = new ParamsArray<Mode>(nom, valeurs);
+            var param = new ParamsArray<string>(nom, valeurs.Select(v => v.ToValueString()).ToArray());
 
             if (!tpParams.Parametres.TryAdd(nom, param))
             {

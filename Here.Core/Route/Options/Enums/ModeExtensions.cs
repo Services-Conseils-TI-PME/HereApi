@@ -4,7 +4,7 @@ namespace Here.Options.Route
 {
     public static class ModeExtensions
     {
-        public static string ToString(this Mode mode)
+        public static string ToValueString(this Mode mode)
         {
             switch (mode)
             {

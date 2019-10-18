@@ -11,7 +11,7 @@ namespace Here.Geocoder
 {
     public class HereGeocodeService : HereService, IHereGeocodeService
     {
-        public HereGeocodeService(IConfiguration config) : base(config, "GeoSrv")
+        public HereGeocodeService(IConfiguration config) : base(config, "GeocoderSvc")
         {
         }
 
@@ -44,7 +44,7 @@ namespace Here.Geocoder
             {
                 //TODO: Doit être traité et retourné dans un RouteCamionModel
                 //Newtonsoft.Json.JO
-                JObject retourJson = (JObject)JToken.Parse(response.Content.ReadAsStringAsync().Result).SelectToken("Response.View[*].Result[*].Location.NavigationPosition[*]");
+                JObject retourJson = (JObject)JToken.Parse(response.Content.ReadAsStringAsync().Result).SelectToken("Response.View[*].Result[0].Location.NavigationPosition[*]");
                 retour = new Localisation(retourJson.SelectToken("Latitude").Value<decimal>(),
                                           retourJson.SelectToken("Longitude").Value<decimal>()
                                           );

@@ -1,5 +1,4 @@
-﻿using Here.Api.Properties;
-using Here.Geocoder;
+﻿using Here.Geocoder;
 using Here.Models;
 using Here.Options.Geocoder;
 using Here.Options.Route;
@@ -19,14 +18,12 @@ namespace Here.Api.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    [FormatFilter]
     public class HereController : ControllerBase
     {
         private readonly ILogger<HereController> _logger;
         private readonly IConfiguration _config;
         private readonly IHereRouteTruckService _routeSrv;
         private readonly IHereGeocodeService _geoSrv;
-
 
         public HereController(ILogger<HereController> logger, IConfiguration config, IHereRouteTruckService routeSrv, IHereGeocodeService geoSrv)
         {
@@ -37,7 +34,8 @@ namespace Here.Api.Controllers
         }
 
         // GET: api/Here
-        [HttpGet("{format?}")]
+        [HttpGet]
+        [Produces("application/json")]
         public async Task<IActionResult> GetAsync()
         {
             HttpClient client = new HttpClient();
@@ -71,7 +69,10 @@ namespace Here.Api.Controllers
             try
             {
                 var retourSrv = await _routeSrv.ObtenirDistanceAsync(options).ConfigureAwait(false);
-                retour = Ok(retourSrv);
+                if (retourSrv == null)
+                    retour = BadRequest("Une erreur est survenue lors de l'appel du service");
+                else
+                    retour = Ok(retourSrv);
             }
             catch (Exception)
             {
@@ -81,6 +82,5 @@ namespace Here.Api.Controllers
             client.Dispose();
             return retour;
         }
-
     }
 }

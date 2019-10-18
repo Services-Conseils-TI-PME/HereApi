@@ -5,14 +5,15 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster AS build
 WORKDIR /src
-COPY ["Here/Here.csproj", "Here/"]
-RUN dotnet restore "Here/Here.csproj"
+COPY ["Here.Api/Here.Api.csproj", "Here.Api/"]
+COPY ["Here.Core/Here.Core.csproj", "Here.Core/"]
+RUN dotnet restore "Here.Api/Here.Api.csproj"
 COPY . .
-WORKDIR "/src/Here"
-RUN dotnet build "Here.csproj" -c Release -o /app/build
+WORKDIR "/src/Here.Api"
+RUN dotnet build "Here.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Here.csproj" -c Release -o /app/publish
+RUN dotnet publish "Here.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app

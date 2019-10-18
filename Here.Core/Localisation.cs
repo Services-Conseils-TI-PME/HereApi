@@ -12,5 +12,10 @@ namespace Here
             Latitude = latitude;
             Longitude = longitude;
         }
+
+        public override string ToString()
+        {
+            return this.GetPointString();
+        }
     }
 }

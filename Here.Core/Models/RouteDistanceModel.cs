@@ -13,7 +13,7 @@
         {
             Depart = new AdresseModel() { NoCivique = 337, Rue = "Morreault", Ville = "Rimouski", Pays = "CAN" };
             Destination = new AdresseModel() { NoCivique = 150, Rue = "René-Lévesque", Ville = "Québec", Pays = "CAN" };
-            Poids = 50000;
+            Poids = 1000;
             Longueur = 14;
             Largeur = 2;
         }
