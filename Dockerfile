@@ -3,12 +3,12 @@ WORKDIR /app
 EXPOSE 8080
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
-WORKDIR /src
+WORKDIR /
 COPY ["Here.Api/Here.Api.csproj", "Here.Api/"]
 COPY ["Here.Core/Here.Core.csproj", "Here.Core/"]
 RUN dotnet restore "Here.Api/Here.Api.csproj"
 COPY . .
-WORKDIR "/src/Here.Api"
+WORKDIR "/Here.Api"
 RUN dotnet build "Here.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
