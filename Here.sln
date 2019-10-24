@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Tests", "Here.Tests\Here.Tests.csproj", "{9955111C-1D4E-4903-979F-7376543561E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Tests", "tests\Here.Tests\Here.Tests.csproj", "{9955111C-1D4E-4903-979F-7376543561E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Core", "Here.Core\Here.Core.csproj", "{3023A928-B82B-4482-939F-EF668696CD7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Core", "src\Here.Core\Here.Core.csproj", "{3023A928-B82B-4482-939F-EF668696CD7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA45B1C1-AD61-4B41-9BFB-A9E28561D191}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Api", "Here.Api\Here.Api.csproj", "{020AC9E4-E80F-4313-9196-9F2ECED2D68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Here.Api", "src\Here.Api\Here.Api.csproj", "{020AC9E4-E80F-4313-9196-9F2ECED2D68E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
