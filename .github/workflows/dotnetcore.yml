@@ -17,8 +17,8 @@ jobs:
         dotnet-version: 3.1.101
     - name: Build with dotnet in debug mode
       run: dotnet build --configuration Debug
-    - name: Testts with xUnit
-      run: dotnet tests --configuration Debug
+    - name: Tests with xUnit
+      run: dotnet test --configuration Debug
   build:
     runs-on: ubuntu-latest
     steps:
