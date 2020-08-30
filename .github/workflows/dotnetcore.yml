@@ -7,28 +7,28 @@ on:
     branches: [ master ]
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps: 
-    - name: Checkout
-    - uses: actions/checkout@master
-    - name: lint
-      uses: luke142367/Docker-Lint-Action@v1.0.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        TARGET: Dockerfile
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.101
-    - name: Build with dotnet in debug mode
-      run: dotnet build --configuration Debug
-    - name: Tests with xUnit
-      run: dotnet test --configuration Debug
+#  lint:
+#    runs-on: ubuntu-latest
+#    steps: 
+#    - name: Checkout
+#    - uses: actions/checkout@master
+#    - name: lint
+#      uses: luke142367/Docker-Lint-Action@v1.0.0
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        TARGET: Dockerfile
+#  test:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/checkout@master
+#    - name: Setup .NET Core
+#      uses: actions/setup-dotnet@v1
+#      with:
+#        dotnet-version: 3.1.101
+#    - name: Build with dotnet in debug mode
+#      run: dotnet build --configuration Debug
+#    - name: Tests with xUnit
+#      run: dotnet test --configuration Debug
   build:
     runs-on: ubuntu-latest
     steps:
