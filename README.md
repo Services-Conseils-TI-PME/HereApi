@@ -5,4 +5,4 @@
 API - Calcul des distance de camionnage avec HERE
 
 # Analyse de code
-Intégration à [SonarCloud](https://sonarcloud.io/)
+Intégration à [SonarCloud](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi/)
