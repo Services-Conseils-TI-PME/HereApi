@@ -1,5 +1,8 @@
 ![.NET Core](https://github.com/jasonouellet/HereApi/workflows/.NET%20Core/badge.svg)
-![.NET Core](https://github.com/jasonouellet/HereApi/workflows/.NET%20Core/badge.svg?branch=master&event=status)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=jasonouellet_HereApi&metric=ncloc)](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=jasonouellet_HereApi&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jasonouellet_HereApi&metric=alert_status)](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi)
 
 # HereApi
 API - Calcul des distance de camionnage avec HERE
