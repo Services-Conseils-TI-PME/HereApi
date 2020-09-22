@@ -6,12 +6,14 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/jasonouellet/HereApi/badge.svg)](https://snyk.io/test/github/jasonouellet/HereApi)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/2e9a540ec865eeea310d/maintainability)](https://codeclimate.com/github/jasonouellet/HereApi/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2e9a540ec865eeea310d/test_coverage)](https://codeclimate.com/github/jasonouellet/HereApi/test_coverage)
 
 # HereApi
 API - Calcul des distance de camionnage avec HERE
 
 # Analyse de code
 
-Intégration à [SonarCloud](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi/)
-
-Intégration à [Snyk](https://app.snyk.io/org/jasonouellet/project/42a7eb37-7170-4de0-ae4d-a5734210be1c/)
+* Intégration à [SonarCloud](https://sonarcloud.io/dashboard?id=jasonouellet_HereApi/)
+* Intégration à [Snyk](https://app.snyk.io/org/jasonouellet/project/42a7eb37-7170-4de0-ae4d-a5734210be1c/)
+* Intégrtation à [Code Climate](https://codeclimate.com/github/jasonouellet/HereApi)
