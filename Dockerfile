@@ -10,10 +10,10 @@ COPY . .
 RUN dotnet restore "src/Here.Api/Here.Api.csproj"
 COPY . .
 WORKDIR "/Here.Api"
-RUN dotnet build "Here.Api.csproj" -c Release -o /app/build
+RUN dotnet build "Here.Api/Here.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Here.Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "Here.Api/Here.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
