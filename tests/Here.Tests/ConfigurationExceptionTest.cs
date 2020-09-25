@@ -1,7 +1,6 @@
 ﻿using Here.Configuration;
 using System;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
 using Xunit;
 
 namespace Here.Tests
@@ -26,23 +25,14 @@ namespace Here.Tests
             // Save the full ToString() value, including the exception message and stack trace.
             string exceptionToString = ex.ToString();
 
-            // Round-trip the exception: Serialize and de-serialize with a BinaryFormatter
-            BinaryFormatter bf = new BinaryFormatter();
-            using (MemoryStream ms = new MemoryStream())
-            {
-                // "Save" object state
-                bf.Serialize(ms, ex);
+            // "Save" object state
+            string serializedData = JsonSerializer.Serialize(ex);
 
-                // Re-use the same stream for de-serialization
-                ms.Seek(0, 0);
-
-                // Replace the original exception with de-serialized one
-                ex = (ConfigurationException)bf.Deserialize(ms);
-            }
+            // Replace the original exception with de-serialized one
+            ex = JsonSerializer.Deserialize<ConfigurationException>(serializedData);
 
             // Double-check that the exception message and stack trace (owned by the base Exception) are preserved
-            Assert.Equal(MessageExToString, ex.ToString());
-            Assert.Equal(MessageExToString, exceptionToString);
+            Assert.Equal(exceptionToString, ex.ToString());
         }
     }
 }
