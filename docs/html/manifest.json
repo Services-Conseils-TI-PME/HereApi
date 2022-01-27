@@ -4,15 +4,579 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Api.Controllers.HereController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Api.Controllers.HereController.html",
+          "hash": "UN0fyS5TyI67MiHYy/YYz7BqKLb3wakmI5zX9qZGVE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Api.Controllers.html",
+          "hash": "L76fvMF0T9+/RgXmPhgisXWHIittAnGzgWgQtrL11ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Configuration.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Configuration.ConfigurationException.html",
+          "hash": "LDNyvjGIGNMOFizQHTT2P7Jy3EcCpRzWVFYftQr9b+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Configuration.HereConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Configuration.HereConfig.html",
+          "hash": "K1GmfWa3S7TfmHIkdRY7fFlSSFYkKJ1DBVA0Bp8wURQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Configuration.IHereConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Configuration.IHereConfig.html",
+          "hash": "8lwHP2UwVPyueLjZiNQmACj3WJlllzZ7yNhBo8hgToc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Configuration.html",
+          "hash": "j5Nsjn86CR/RsvD2VcUssBC5YCqVRiwqhAxguir7mog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Geocoder.HereGeocodeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Geocoder.HereGeocodeService.html",
+          "hash": "/Xkgj/N8VcpkrrHw2zbEEo5Ddw7oG45N1dftJd2hi9E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Geocoder.IHereGeocodeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Geocoder.IHereGeocodeService.html",
+          "hash": "6b1yK4oTzz0h4Xpo0lYfcJBMkbyVJSCDJBVflLUyoks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Geocoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Geocoder.html",
+          "hash": "Tw7cbc0QQnU/sSegqeyx63I+SLGH8pH6dElyvYwz6Mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.HereService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.HereService.html",
+          "hash": "bT5rkERB0o8vVE0E6LRrevRD455V6hah0XC3ZgpdFN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Localisation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Localisation.html",
+          "hash": "Ygki5cY5VDEcCGP9Q4OyOWNiAofM7wrjRpH15iyhQ2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.LocalisationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.LocalisationExtension.html",
+          "hash": "NR7/6N7/8jkFFtjEIrwZgJi+Zd5zCwsOM+jZhgYN74k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Models.AdresseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Models.AdresseModel.html",
+          "hash": "sb4QTabsM4k+wBJtlwIHadLPCfeI+stUJogR5DvqetE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Models.CalculDistanceRetourModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Models.CalculDistanceRetourModel.html",
+          "hash": "G/Aw0cA8bN4Ormz5TA/I1COVdPUfU2N4I8R9N1evqTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Models.RouteDistanceModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Models.RouteDistanceModel.html",
+          "hash": "nWjx/TfsQRNgZPOWZGklCGk8RCIpjdm3PVAByosk10U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Models.html",
+          "hash": "iNqekAcNU78wkHjMA/NNnKSLjdaemnssiEMDAmuhnuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Geocoder.GeocoderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Geocoder.GeocoderOptions.html",
+          "hash": "MvTSEi24bbIQszAZRbyZkjy14GBXJOaQ2+BiA2KiU2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Geocoder.GeocoderOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Geocoder.GeocoderOptionsExtensions.html",
+          "hash": "34Rwj/wsQZ2VLDwgZQHgkmFai0G4WhkwE+bOxhoZcNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Geocoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Geocoder.html",
+          "hash": "SoT7Vf9R7rhp8vOEvVoPJwvvuPX33m14JE3bllp2Npw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.IHereOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.IHereOptions.html",
+          "hash": "D66XLseWIkVTGx8dRIaaCY8/laEJwTW1+lR7y8TSAGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.Mode.html",
+          "hash": "Kh+hel98HU5AiVWjxjxpXbdGqQ+D9o5B6xOl9h8YVmE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.ModeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.ModeExtensions.html",
+          "hash": "GzSrS73HaOs6tagB4g30X1YE1hQxV1kmjcbNH140JZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.RouteMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.RouteMode.html",
+          "hash": "9NufiXM++PPItEzOq0m4xsNe45HR8hFsxlvUBWEsNOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.RouteOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.RouteOptions.html",
+          "hash": "trWR3hPXOuH1Fg3d40V6FAYvncj+hv7peQgQADuPokM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.RouteOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.RouteOptionsExtensions.html",
+          "hash": "hKtxqOUliLzITohiHmViyHjGw2uMPwp/d3c/SdAipxM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.RouteTruckOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.RouteTruckOptions.html",
+          "hash": "etLESWhZ7laNMeMmzUvaEOFh8cny3Yrd/0jSfbKdCOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.RouteTruckOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.RouteTruckOptionsExtensions.html",
+          "hash": "w0COLaA3715AunzMZLXVpWQGy4miMZi7quuB/+22eeE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.ShippedHazardousGoods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.ShippedHazardousGoods.html",
+          "hash": "3RNXkT28Zkk/Usxi3bjZ2sHzA2fs8K746WQD+vgS+6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.TruckRestrictionPenalty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.TruckRestrictionPenalty.html",
+          "hash": "S+yRKb5FFzR7LMgqW17LNNsu4uuIdQEVcetJgw41YlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.TruckType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.TruckType.html",
+          "hash": "lFFUxtTkSBv5CXobN5LVCeCFNDOIDJkpEjiXVY1CUKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.TunnelCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.TunnelCategory.html",
+          "hash": "pDDpQrmY3kCX8vTXDSlqzzunDvWcq2+/lGIAHre9GJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.Route.html",
+          "hash": "b833xnd98w2NhptAsEGeIOdRZNcL1IBpYI/I9TW8FEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Options.html",
+          "hash": "zrD9hHpyvugTDqha5W1ktzXgb+ej+NQB34SnIseeQ3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Params.IParamBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Params.IParamBase.html",
+          "hash": "DGhh3OP1eOPeKIb6IkJ7JSXBCX7puuVqUBAxm0EY1kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Params.ParamsArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Params.ParamsArray-1.html",
+          "hash": "9Mz8UQWxhY8aqUvO+ao0t13eawb00vMbtzZeXA+uG50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Params.ParamsBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Params.ParamsBase-1.html",
+          "hash": "2jxSyp7exExQWNVBd1O/pmFSomcMcYdAjiWDy7+s5nY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Params.ParamsEnum-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Params.ParamsEnum-1.html",
+          "hash": "1Bmo5F4LkUKOrK8vWmopkbEFQf/byBqQJ334tfUXkx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Params.html",
+          "hash": "Yjb/wxzVYpzXW5FpxK3bbaa69V1DqPev6FN+Q5uy5Nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Program.html",
+          "hash": "a6eHW3V7Vr1IZJUUVczK0yiF8ppAutBGzPIMITJCIGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Route.HereRouteTruckService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Route.HereRouteTruckService.html",
+          "hash": "pTEiWGdRRT479ji2LFJI+Sko8/JFaAYD+FJ+6yZV7pM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Route.IHereRouteTruckService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Route.IHereRouteTruckService.html",
+          "hash": "ZoB2KnFus3yhsMXHko7qTglInMTyM0AlEa5wfcoyj6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Route.html",
+          "hash": "ySkKsjickMVcwQWQq5JG/z699ykdXi2cLDPP0wy35BI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Services.HereRouteService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Services.HereRouteService.html",
+          "hash": "9kMxYbsjEYxSlpnZmcWOLmfaEXYPMfV3B28cHJfNQyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Services.html",
+          "hash": "wpIsb3yc6XGk7z6TvYNzHVyFuD4j9OAivU48fIU5ycc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.Startup.html",
+          "hash": "e390YEpdhBBUrXfimWBGf0F29zKeb43p8tXmqcHW6iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Here.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Here.html",
+          "hash": "AXQjdlC38iXBXE4wqRKxN+jhxuZrXNJJkN19R0m6dEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "TAxsuPkH7L2OHicbsIcBXg=="
+          "hash": "icZbL9gRezHjorCkR0GpwmnmhOo1M4GtLnEnrd0lu8g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "BA096o0VA8V5OAIggtiIZy5HFyePvuw4ljJ1P7O2Pt8="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/here.html",
-          "hash": "zKMp8/ms8icjPexm9GsbaQ=="
+          "hash": "O7THpGSxff6gAssPjmqPs8ypuyU4dx4DoN6/OrFnLOU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "8zDwOjaTUAJtPsRfOV8ayA=="
+          "hash": "cYoMK9XTbcfWeRVbZQNro/TXcqs8MOLuVCEX7ZU45Xg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "uD3jbrnL0b/Qli6EPM+mvg=="
+          "hash": "g5J3xNTcDPNNETdEYXyJVRE5+amcTekiO16Ald7hp6k="
         }
       },
       "is_incremental": false,
@@ -60,10 +624,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "F8EHE70YDO2QrL8IultZzA=="
+          "hash": "ElmaDi9NgSLTdsVkAlljHyd4KzzY9WGM9HGL5Ro/dtU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -75,7 +639,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "PZS6JEujjbjQVxz4zwtqqg=="
+          "hash": "0Ck2XrV6QxHdz0vqreHyzm6I6gcbj+vq4bekH0TPjxM="
         }
       },
       "is_incremental": false,
@@ -85,17 +649,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.57.1.0 to 2.59.0.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 4
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 46,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
