@@ -1,51 +1,51 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>db90d3fd-c30e-4a8f-be61-382200637cac</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <AssemblyName>Here</AssemblyName>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>DEBUG</DefineConstants>
-    <DocumentationFile />
-  </PropertyGroup>
-  <ItemGroup>
-    <Compile Remove="Controllers\WeatherForecastController.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-rc.1.20451.13" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-rc.1.20451.13">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-rc.1.20451.14" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0-rc.1.20451.14" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0-rc.1.20453.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Here.Core\Here.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\PublishProfiles\" />
-  </ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<UserSecretsId>db90d3fd-c30e-4a8f-be61-382200637cac</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<AssemblyName>Here</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>DEBUG</DefineConstants>
+		<DocumentationFile/>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="Controllers\WeatherForecastController.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1"/>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0"/>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0"/>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1"/>
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3"/>
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Here.Core\Here.Core.csproj"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Properties\PublishProfiles\"/>
+	</ItemGroup>
 </Project>
